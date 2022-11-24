@@ -1,5 +1,7 @@
 ﻿// Ternary Conditional Operator (? :)
 
+using _08_TernaryConditionalOperator.Demos;
+
 namespace _08_TernaryConditionalOperator
 {
     internal class Program
@@ -43,6 +45,12 @@ namespace _08_TernaryConditionalOperator
             Console.Write("Enter a number (between 1 and 100): ");
             input = Console.ReadLine();
             Console.WriteLine(CheckNumber(input));
+
+
+
+            #region Demos
+            YaziMiTuraMi.Calistir();
+            #endregion
         }
 
 

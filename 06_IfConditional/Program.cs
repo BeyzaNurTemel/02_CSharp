@@ -1,6 +1,8 @@
 ﻿// if Conditional (if Şart Yapısı)
 
-namespace _06_Conditionals
+using _06_IfConditional.Demos;
+
+namespace _06_IfConditional
 {
     internal class Program
     {
@@ -153,6 +155,22 @@ namespace _06_Conditionals
                 }
             }
 
+            #endregion
+
+
+
+            #region Demos
+            Onermeler.Calistir();
+            SayiPozitifNegatif.Calistir();
+            ParaBirimi.Calistir();
+            OgrenciNotOrtalamasi.Calistir();
+            HesapMakinesi.Calistir();
+            Koronavirus.Calistir();
+            KullaniciGirisi.Calistir();
+            SayiKarsilastirma.Calistir();
+            EhliyetAlabilme.Calistir();
+            AyaGoreMevsim.Calistir();
+            ProgramlamaSinavi.Calistir();
             #endregion
         }
     }

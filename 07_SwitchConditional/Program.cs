@@ -1,5 +1,7 @@
 ﻿// switch Conditional (switch Şart Yapısı)
 
+using _07_SwitchConditional.Demos;
+
 namespace _07_SwitchConditional
 {
     internal class Program
@@ -49,6 +51,14 @@ namespace _07_SwitchConditional
             Console.Write("Oyun adı kısaltması giriniz (HL, CS, GTA veya RDR): ");
             string kisaltma = Console.ReadLine();
             KisaltmayaGoreOyunYazdir(kisaltma);
+            #endregion
+
+
+
+            #region Demos
+            HaftaninGunleri.Calistir();
+            PlakaVeSehirler.Calistir();
+            TlDovizHesaplama.Calistir();
             #endregion
         }
 
