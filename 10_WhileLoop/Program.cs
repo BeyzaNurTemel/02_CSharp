@@ -1,5 +1,7 @@
 ﻿// while Loop (while Döngüsü)
 
+using _10_WhileLoop.Demos;
+
 namespace _10_WhileLoop
 {
     internal class Program
@@ -83,6 +85,14 @@ namespace _10_WhileLoop
                 Console.Write("Ücret giriniz (ç: çıkış) ");
                 ucretGiris = Console.ReadLine();
             }
+
+
+
+            #region Demos
+            AritmetikOrtalama.Calistir();
+            Palindrom.Calistir();
+            MulakatSorusu1.Calistir();
+            #endregion
         }
 
 

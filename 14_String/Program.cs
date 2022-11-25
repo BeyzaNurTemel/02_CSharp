@@ -1,5 +1,6 @@
 ﻿// string data type (string veri tipi)
 
+using _14_String.Demos;
 using System.Reflection.Metadata;
 
 namespace _14_String
@@ -247,6 +248,20 @@ namespace _14_String
 
             string message = "To be continued"; // length: 15
             Console.WriteLine(message.PadRight(18, '.')); // sona üç nokta eklemek için 18 karaktere '.' ile tamamlayarak konsola "To be continued..." yazdırır
+            #endregion
+
+
+
+            #region Demos
+            AdamAsmaca.Calistir();
+            KelimeIlkHarfBuyukDigerleriKucuk.Calistir();
+            SayiBasamaklari.Calistir();
+            SehirArama.Calistir();
+            CumledeKelimeArama.Calistir();
+            ListedeIsimArama.Calistir();
+            ListedeIsimAramaVeBulunanlariListeleme.Calistir();
+            TcKimlikNoDogrulama.Calistir();
+            SesliSessizHarfBulma.Calistir();
             #endregion
         }
     }

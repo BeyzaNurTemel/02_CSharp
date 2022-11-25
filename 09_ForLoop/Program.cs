@@ -89,6 +89,8 @@ namespace _09_Loops
 
             #region Demos
             KullaniciGirisi.Calistir();
+            Faktoriyel.Calistir();
+            IngilizceAlfabe.Calistir();
             #endregion
         }
 
