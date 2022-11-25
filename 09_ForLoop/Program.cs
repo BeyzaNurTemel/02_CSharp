@@ -1,5 +1,7 @@
 ﻿// for Loop (for Döngüsü)
 
+using _09_Loops.Demos;
+
 namespace _09_Loops
 {
     internal class Program
@@ -82,6 +84,12 @@ namespace _09_Loops
             girisSayisi = int.Parse(Console.ReadLine());
             string asalMiSonucu = AsalMi(girisSayisi);
             Console.WriteLine(asalMiSonucu);
+
+
+
+            #region Demos
+            KullaniciGirisi.Calistir();
+            #endregion
         }
 
 

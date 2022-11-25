@@ -1,5 +1,7 @@
 ﻿// foreach Loop (foreach Döngüsü)
 
+using _13_ForEachLoop.Demos;
+
 namespace _13_ForEachLoop
 {
     internal class Program
@@ -34,6 +36,13 @@ namespace _13_ForEachLoop
             Console.Write("Aranacak kelime: ");
             string aranacakKelime = Console.ReadLine();
             Ara(aranacakKelime, kelimeler);
+
+
+
+            #region Demos
+            PlakalaraGoreSehirler.Calistir();
+            IliskiTesti.Calistir();
+            #endregion
         }
 
 

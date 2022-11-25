@@ -171,6 +171,8 @@ namespace _06_IfConditional
             EhliyetAlabilme.Calistir();
             AyaGoreMevsim.Calistir();
             ProgramlamaSinavi.Calistir();
+            VucutKutleEndeksi.Calistir();
+            UcSayiSiralama.Calistir();
             #endregion
         }
     }
